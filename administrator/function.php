@@ -92,11 +92,11 @@ function get_data_id($table){
 
 
     function token_names(){
-      return "OBOT";
+      return "DCC";
     }
 
     function wallet_names(){
-      return "Obortech";
+      return "DCLINIC";
     }
 
     function getTokenDetails(){

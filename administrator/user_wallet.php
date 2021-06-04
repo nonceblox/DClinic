@@ -74,7 +74,7 @@
                                 <td>'.$value['email'].'</td>
                                  <td>'.$value['tx_address'].'</td>
                                  <td>'.$value['balance'].' '.token_names().'</td>
-                                 <td><a class="btn btn-danger btn-sm" href="view_users_transfers.php?tx_address='.$value['tx_address'].'&email='.$value['email'].'">View Transaction</a></td>
+                                 <td><a class="btn btn-primary btn-sm" href="view_users_transfers.php?tx_address='.$value['tx_address'].'&email='.$value['email'].'">View Transaction</a></td>
                                 </tr>';
                               $i++;
                       }
